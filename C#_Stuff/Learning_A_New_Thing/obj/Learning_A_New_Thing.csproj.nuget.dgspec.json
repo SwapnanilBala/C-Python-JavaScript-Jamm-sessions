@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/swapnaniru_sensei/Documents/hello_world/Learning_A_New_Thing/Learning_A_New_Thing.csproj": {}
+    "/Users/swapnaniru_sensei/Documents/Regular-Git-pushes/C#_Stuff/Learning_A_New_Thing/Learning_A_New_Thing.csproj": {}
   },
   "projects": {
-    "/Users/swapnaniru_sensei/Documents/hello_world/Learning_A_New_Thing/Learning_A_New_Thing.csproj": {
+    "/Users/swapnaniru_sensei/Documents/Regular-Git-pushes/C#_Stuff/Learning_A_New_Thing/Learning_A_New_Thing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/swapnaniru_sensei/Documents/hello_world/Learning_A_New_Thing/Learning_A_New_Thing.csproj",
+        "projectUniqueName": "/Users/swapnaniru_sensei/Documents/Regular-Git-pushes/C#_Stuff/Learning_A_New_Thing/Learning_A_New_Thing.csproj",
         "projectName": "Learning_A_New_Thing",
-        "projectPath": "/Users/swapnaniru_sensei/Documents/hello_world/Learning_A_New_Thing/Learning_A_New_Thing.csproj",
+        "projectPath": "/Users/swapnaniru_sensei/Documents/Regular-Git-pushes/C#_Stuff/Learning_A_New_Thing/Learning_A_New_Thing.csproj",
         "packagesPath": "/Users/swapnaniru_sensei/.nuget/packages/",
-        "outputPath": "/Users/swapnaniru_sensei/Documents/hello_world/Learning_A_New_Thing/obj/",
+        "outputPath": "/Users/swapnaniru_sensei/Documents/Regular-Git-pushes/C#_Stuff/Learning_A_New_Thing/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/swapnaniru_sensei/.nuget/NuGet/NuGet.Config"
