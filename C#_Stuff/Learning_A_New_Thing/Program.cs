@@ -551,26 +551,61 @@
 
 
 
-namespace MathsBasic
+// namespace MathsBasic
+// {
+//    class Calculator
+//    {
+//       public static int Add(int a, int b)
+//       {
+//          return (a+b);
+//       }
+//       public static int Multiply(int a, int b)
+//       {
+//          return(a*b);
+//       }
+//       public static int Substract(int a, int b)
+//       {
+//          return (a - b);
+//       }
+//       public static double Divide(double a, double b )
+//       {
+//          return (a/b);
+//       }
+//    }
+// }
+
+// namespace Greeting
+// {
+//    class Greet
+//    {
+//       public static string profession(string name, string profession)
+//       {
+//          return ($"Hey, {name} your profession is {profession}") ;
+//       }
+
+//       public static string food(string name, string food)
+//       {
+//          return ($"Yo, {name}, didn't know {food} was your favourite appetizer");
+//       }
+
+
+//    }
+// };
+
+namespace Resturant
 {
-   class Calculator
+   class Ordering
    {
-      public static int Add(int a, int b)
+      public static double Order_details(int number, double price)
       {
-         return (a+b);
+         return (number * price);
       }
-      public static int Multiply(int a, int b)
-      {
-         return(a*b);
-      }
-      public static int Substract(int a, int b)
-      {
-         return (a - b);
-      }
-      public static double Divide(double a, double b )
-      {
-         return (a/b);
-      }
+
+      public static double Tipping(double bill, double tip_percentage)
+{
+   return (bill * tip_percentage / 100);
+}
+
    }
 }
 
