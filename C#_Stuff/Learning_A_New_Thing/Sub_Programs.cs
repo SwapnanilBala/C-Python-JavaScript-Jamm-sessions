@@ -113,20 +113,20 @@
 
 // File.AppendAllText("Path", "The text you would want to add to the file")
 
-using StreamReader reader = new StreamReader("/Users/swapnaniru_sensei/Documents/Regular-Git-pushes/C#_Stuff/Learning_A_New_Thing/RT.txt");
+// using StreamReader reader = new StreamReader("/Users/swapnaniru_sensei/Documents/Regular-Git-pushes/C#_Stuff/Learning_A_New_Thing/RT.txt");
 
-for(int i = 0; i < 5 ; i++) {
+// for(int i = 0; i < 5 ; i++) {
 
-    Console.Write("Please add your text that we will add to the file: \t");
-    string StringFile = Convert.ToString(Console.ReadLine());
+//     Console.Write("Please add your text that we will add to the file: \t");
+//     string StringFile = Convert.ToString(Console.ReadLine());
 
-File.AppendAllText("/Users/swapnaniru_sensei/Documents/Regular-Git-pushes/C#_Stuff/Learning_A_New_Thing/RT.txt",StringFile);
+// File.AppendAllText("/Users/swapnaniru_sensei/Documents/Regular-Git-pushes/C#_Stuff/Learning_A_New_Thing/RT.txt",StringFile);
 
 
-}
+// }
 
-string [] contents = reader.ReadToEnd().Split(" ");
-foreach(string cont in contents)
-{
-    Console.WriteLine(cont);
-}
+// string [] contents = reader.ReadToEnd().Split(" ");
+// foreach(string cont in contents)
+// {
+//     Console.WriteLine(cont);
+// }

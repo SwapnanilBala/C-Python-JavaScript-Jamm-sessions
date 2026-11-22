@@ -592,20 +592,81 @@
 //    }
 // };
 
-namespace Resturant
+// namespace Resturant
+// {
+//    class Ordering
+//    {
+//       public static double Order_details(int number, double price)
+//       {
+//          return (number * price);
+//       }
+
+//       public static double Tipping(double bill, double tip_percentage)
+// {
+//    return (bill * tip_percentage / 100);
+// }
+
+//    }
+// }
+
+// for (int i = 0; i < 7; i++)
+// {
+//    Console.Write($"{i} -> ");
+// }
+
+// for (int i = 2; i < 14; i+= 2)
+// {
+//    Console.WriteLine($"The number is {i}");
+//    if (i == 8) break;
+// }
+
+
+// string [] names = {"Swapnanil","Priya","Cathleene"};
+// foreach (string name in names)
+// {
+//    if (name.Length > 6)
+//    {
+//       continue;
+//    }
+//    Console.WriteLine($"The name is : {name}");
+
+//    if (name == "Swapnanil")
+//    {
+//       // name = "Swap"; cannnot do this since it's a foreach variable
+//    }
+// }
+
+// string [] hobbies = {"Football", "Lawn Tennis", "Guitar"};
+
+// for (int i = 0; i < hobbies.Length; i++)
+// {
+//    if (hobbies[i].ToLower() == "football")
+//    {
+//       hobbies[i] = "One man, Three Woman";
+//    }
+// }
+
+
+
+// foreach (string hobb in hobbies)
+// {
+//    Console.WriteLine(hobb);
+// }
+
+for (int i = 1; i < 101; i ++)
 {
-   class Ordering
-   {
-      public static double Order_details(int number, double price)
-      {
-         return (number * price);
+   if (i%3 == 0 && i%5 == 0) {
+      Console.WriteLine($"{i} - FizzBuzz");
       }
 
-      public static double Tipping(double bill, double tip_percentage)
-{
-   return (bill * tip_percentage / 100);
-}
-
+   else if (i%3 == 0)
+   {
+      Console.WriteLine($"{i} - Fizz");
+   }
+   else if (i%5 == 0)
+   {
+      Console.WriteLine($"{i} - Buzz");
+   }
+   else {Console.WriteLine(i);
    }
 }
-
